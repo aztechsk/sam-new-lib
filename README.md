@@ -2,9 +2,9 @@
 # sam-new-lib
 
 The C library **sam-new-lib** provides an API for controlling the peripherals of the microcontroller.
-The supported devices include microcontrollers from the Microchip (Atmel) **AT91SAMd** family.
+The supported devices include microcontrollers from the Microchip (Atmel) **AT91SAMD** family.
 The supported standard peripherals include DMAC, DSU, EIC, GCLK, NVM, PM, PORT, SYSCTRL, SERCOM, TC, WDT and various hardware components
-connected to the microcontroller such as buttons, LEDs, LEDUI, IO extenders (shift registers), etc.
+connected to the microcontroller such as buttons, LEDs, LEDUI, etc.
 
 ### Library features
 
