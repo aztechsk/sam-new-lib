@@ -1,0 +1,55 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ucdrv" target="8" version="2">
+  <project Name="ucdrv">
+    <configuration
+      Name="Common"
+      c_only_additional_options="-Wall;-Wextra;-Wstrict-prototypes;-Wmissing-prototypes;-Wmissing-declarations;-Wshadow;-Wpointer-arith;-Wbad-function-cast;-Wcast-align;-Wcast-qual;-Wjump-misses-init;-Wno-unused-parameter;-Wno-unused-but-set-variable;-Wundef"
+      c_system_include_directories="$(ProjectDir)/../freertos/src/inc"
+      c_user_include_directories="$(ProjectDir)/../ucdrv/inc;$(ProjectDir)/../inc;$(ProjectDir)/../sys/src"
+      project_directory=""
+      project_type="Library" />
+    <folder Name="src">
+      <file Name="criterr.c" file_name="src/criterr.c" />
+      <file Name="criterr.h" file_name="src/criterr.h" />
+      <file Name="hwerr.c" file_name="src/hwerr.c" />
+      <file Name="hwerr.h" file_name="src/hwerr.h" />
+      <file Name="pm_d.c" file_name="src/pm_d.c" />
+      <file Name="pm.h" file_name="src/pm.h" />
+      <file Name="gclk_d.c" file_name="src/gclk_d.c" />
+      <file Name="gclk.h" file_name="src/gclk.h" />
+      <file Name="sysctrl_d.c" file_name="src/sysctrl_d.c" />
+      <file Name="sysctrl.h" file_name="src/sysctrl.h" />
+      <file Name="nvm_d.c" file_name="src/nvm_d.c" />
+      <file Name="nvm.h" file_name="src/nvm.h" />
+      <file Name="wdt.c" file_name="src/wdt.c" />
+      <file Name="wdt.h" file_name="src/wdt.h" />
+      <file Name="port.c" file_name="src/port.c" />
+      <file Name="port.h" file_name="src/port.h" />
+      <file Name="ledui.c" file_name="src/ledui.c" />
+      <file Name="ledui.h" file_name="src/ledui.h" />
+      <file Name="sercom.c" file_name="src/sercom.c" />
+      <file Name="sercom.h" file_name="src/sercom.h" />
+      <file Name="uart.c" file_name="src/uart.c" />
+      <file Name="uart.h" file_name="src/uart.h" />
+      <file Name="reset.c" file_name="src/reset.c" />
+      <file Name="reset.h" file_name="src/reset.h" />
+      <file Name="dsu.c" file_name="src/dsu.c" />
+      <file Name="dsu.h" file_name="src/dsu.h" />
+      <file Name="dmac.c" file_name="src/dmac.c" />
+      <file Name="dmac.h" file_name="src/dmac.h" />
+      <file Name="sleep_d.c" file_name="src/sleep_d.c" />
+      <file Name="sleep.h" file_name="src/sleep.h" />
+      <file Name="eic.c" file_name="src/eic.c" />
+      <file Name="eic.h" file_name="src/eic.h" />
+      <file Name="btn.c" file_name="src/btn.c" />
+      <file Name="btn.h" file_name="src/btn.h" />
+      <file Name="tcisr.c" file_name="src/tcisr.c" />
+      <file Name="tcisr.h" file_name="src/tcisr.h" />
+      <file Name="tc.c" file_name="src/tc.c" />
+      <file Name="tc.h" file_name="src/tc.h" />
+      <file Name="led.c" file_name="src/led.c" />
+      <file Name="led.h" file_name="src/led.h" />
+    </folder>
+    <configuration Name="Release" gcc_optimization_level="Level 1" />
+  </project>
+</solution>
